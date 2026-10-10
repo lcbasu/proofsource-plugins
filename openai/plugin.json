@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "proofsource",
   "version": "1.0.0",
-  "description": "AI visibility for your brand: how often AI assistants mention you, who they recommend instead, which sources they cite, and what to fix first.",
+  "description": "Brand visibility analytics for AI answers: how often AI answers mention your brand, which competitors they recommend instead, which sources they cite, and what to fix first.",
   "author": {
     "name": "Proofsource",
     "email": "support@proofsource.co",
@@ -22,8 +22,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Proofsource",
-        "shortDescription": "AI visibility for your brand",
-        "longDescription": "Proofsource measures how AI assistants talk about your brand. It asks ChatGPT, Perplexity, Claude and Google AI Overviews the questions your buyers ask, and shows how often you are mentioned, which competitors are recommended instead, and which sources the answers cite. Ask for an AI visibility audit or a fix plan and get answers backed by the real responses, with a link to check every one in Proofsource. Proofsource only reads the workspace you connect, and asks before it changes anything.",
+        "shortDescription": "Brand visibility in AI answers",
+        "longDescription": "Proofsource is a brand visibility analytics tool for marketing teams. It asks leading AI answer engines the questions your buyers ask, then shows how often the answers mention your brand, which competitors they recommend instead, and which sources they cite. Ask for a visibility audit or a fix plan and get answers backed by the measured responses, with a link to check each one in Proofsource. Proofsource only reads the workspace you connect, and asks before it changes anything.",
         "developerName": "Grovio Labs, Inc.",
         "category": "Productivity",
         "capabilities": [
