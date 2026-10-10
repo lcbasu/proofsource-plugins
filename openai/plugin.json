@@ -25,7 +25,7 @@
         "shortDescription": "Brand visibility in AI answers",
         "longDescription": "Proofsource is a brand visibility analytics tool for marketing teams. It asks leading AI answer engines the questions your buyers ask, then shows how often the answers mention your brand, which competitors they recommend instead, and which sources they cite. Ask for a visibility audit or a fix plan and get answers backed by the measured responses, with a link to check each one in Proofsource. Proofsource only reads the workspace you connect, and asks before it changes anything.",
         "developerName": "Grovio Labs, Inc.",
-        "category": "Productivity",
+        "category": "Data & Analytics",
         "capabilities": [
           "Show AI visibility by engine and by question",
           "Name the competitors AI recommends instead",
