@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "proofsource": {
+      "type": "http",
+      "url": "https://app.proofsource.co/v1/mcp",
+      "oauth": {
+        "scopes": "mcp.read mcp.write"
+      }
+    }
+  }
+}

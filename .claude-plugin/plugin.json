@@ -1,0 +1,20 @@
+{
+  "name": "proofsource",
+  "displayName": "Proofsource",
+  "version": "1.0.0",
+  "description": "AI visibility for your brand: how often ChatGPT, Perplexity, Claude and Google AI Overviews mention you, who they recommend instead, which sources they cite, and what to fix first.",
+  "author": {
+    "name": "Proofsource",
+    "email": "hello@proofsource.co",
+    "url": "https://proofsource.co"
+  },
+  "homepage": "https://proofsource.co/ai-assistants",
+  "repository": "https://github.com/lcbasu/proofsource-plugins",
+  "license": "Proprietary",
+  "keywords": ["ai-visibility", "aeo", "geo", "brand", "chatgpt", "perplexity"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://proofsource.co/ai-assistants",
+  "supportUrl": "https://proofsource.co/contact",
+  "privacyPolicyUrl": "https://proofsource.co/privacy",
+  "termsOfServiceUrl": "https://proofsource.co/terms"
+}

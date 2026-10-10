@@ -1,0 +1,15 @@
+{
+  "name": "proofsource-plugins",
+  "description": "Proofsource plugins for Claude Code and Cowork.",
+  "owner": {
+    "name": "Proofsource",
+    "email": "hello@proofsource.co"
+  },
+  "plugins": [
+    {
+      "name": "proofsource",
+      "source": "./",
+      "description": "AI visibility audit and fix plan, powered by your Proofsource workspace."
+    }
+  ]
+}
