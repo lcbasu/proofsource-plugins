@@ -1,6 +1,6 @@
 ---
 name: ai-visibility-audit
-description: Audit how AI assistants (ChatGPT, Perplexity, Claude, Google AI Overviews) talk about the user's brand, using Proofsource data. Use when the user asks whether AI mentions their brand, who AI recommends instead of them, which sources AI cites, or what changed in their AI visibility.
+description: Audit how AI answers talk about the user's brand, using Proofsource data. Use when the user asks whether AI mentions their brand, who AI recommends instead of them, which sources AI cites, or what changed in their AI visibility.
 ---
 
 # AI visibility audit

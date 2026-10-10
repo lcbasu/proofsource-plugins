@@ -39,7 +39,7 @@
         "privacyPolicyURL": "https://proofsource.co/privacy",
         "termsOfServiceURL": "https://proofsource.co/terms",
         "defaultPrompt": [
-          "Is my brand mentioned in ChatGPT answers?",
+          "Is my brand mentioned in AI answers?",
           "Who does AI recommend instead of me?",
           "What should I fix first to show up in AI answers?"
         ],
