@@ -5,13 +5,19 @@
   "description": "AI visibility for your brand: how often AI assistants mention you, who they recommend instead, which sources they cite, and what to fix first.",
   "author": {
     "name": "Proofsource",
-    "email": "hello@proofsource.co",
+    "email": "support@proofsource.co",
     "url": "https://proofsource.co"
   },
   "homepage": "https://proofsource.co/ai-assistants",
   "repository": "https://github.com/lcbasu/proofsource-plugins",
   "license": "Proprietary",
-  "keywords": ["ai-visibility", "aeo", "geo", "brand", "seo"],
+  "keywords": [
+    "ai-visibility",
+    "aeo",
+    "geo",
+    "brand",
+    "seo"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -46,31 +52,31 @@
           "positive": [
             {
               "description": "Overall AI visibility",
-              "prompt": "How often does AI mention proofsource.co?",
+              "prompt": "How often does AI mention Tesla?",
               "tools_triggered": "list_brands, get_visibility",
               "expected_behavior": "Return the brand's mention rate overall and per engine for the last 30 days, with the change against the previous period and a link to open it in Proofsource."
             },
             {
               "description": "Competitors recommended instead",
-              "prompt": "Who does AI recommend instead of Proofsource?",
+              "prompt": "Who does AI recommend instead of Tesla?",
               "tools_triggered": "list_brands, get_competitors",
               "expected_behavior": "List the competitors AI answers name most, with each one's share of voice and change."
             },
             {
               "description": "Cited sources",
-              "prompt": "Which websites does AI cite when people ask about my category?",
+              "prompt": "Which websites does AI cite when people ask about electric cars?",
               "tools_triggered": "list_brands, get_citations",
               "expected_behavior": "Rank the domains AI answers cite for the brand's questions and show where the brand's own site ranks."
             },
             {
               "description": "Full audit",
-              "prompt": "Run an AI visibility audit for my brand.",
+              "prompt": "Run an AI visibility audit for Tesla.",
               "tools_triggered": "list_brands, get_visibility, get_competitors, get_citations, get_changes",
               "expected_behavior": "Summarize visibility, competitors, cited sources and recent changes, naming the tool and window behind each number."
             },
             {
               "description": "Fix plan",
-              "prompt": "What should I fix first to show up in AI answers?",
+              "prompt": "What should Tesla fix first to show up in more AI answers?",
               "tools_triggered": "list_brands, list_fix_opportunities",
               "expected_behavior": "Return a prioritized plan built only from the brand's open gaps, each with its evidence, and ask before recording anything."
             }
