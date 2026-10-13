@@ -24,6 +24,10 @@ The connector URL is `https://app.proofsource.co/v1/mcp` (OAuth 2.1; you sign in
 - **ChatGPT:** Settings → Apps & Connectors → Advanced → turn on Developer mode → Create → paste the URL, choose OAuth.
 - **Claude Code:** `claude mcp add --scope user --transport http proofsource https://app.proofsource.co/v1/mcp`, then `/mcp` to sign in.
 
+- **Cursor, VS Code, Cline, Windsurf and other MCP clients:** add a remote (Streamable HTTP) server with the URL above; see [llms-install.md](llms-install.md).
+
+Also listed in the official MCP Registry as `co.proofsource/proofsource` ([server.json](server.json)).
+
 Full guide: https://proofsource.co/docs/chatgpt-and-claude
 
 ## Tools
