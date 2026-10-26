@@ -18,11 +18,11 @@ Then run `/mcp`, pick `proofsource` and sign in with your Proofsource account. T
 
 ## Connect without the plugin
 
-The connector URL is `https://app.proofsource.co/v1/mcp` (OAuth 2.1; you sign in with your Proofsource email and a one-time code).
+The connector URL is `https://mcp.proofsource.co/mcp` (OAuth 2.1; you sign in with your Proofsource email and a one-time code).
 
 - **Claude (web or Desktop):** Settings → Connectors → Add custom connector → paste the URL → Connect.
 - **ChatGPT:** Settings → Apps & Connectors → Advanced → turn on Developer mode → Create → paste the URL, choose OAuth.
-- **Claude Code:** `claude mcp add --scope user --transport http proofsource https://app.proofsource.co/v1/mcp`, then `/mcp` to sign in.
+- **Claude Code:** `claude mcp add --scope user --transport http proofsource https://mcp.proofsource.co/mcp`, then `/mcp` to sign in.
 
 - **Cursor, VS Code, Cline, Windsurf and other MCP clients:** add a remote (Streamable HTTP) server with the URL above; see [llms-install.md](llms-install.md).
 

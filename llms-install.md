@@ -2,9 +2,9 @@
 
 Proofsource is a remote MCP server. Nothing to clone, build or run locally.
 
-- URL: `https://app.proofsource.co/v1/mcp`
+- URL: `https://mcp.proofsource.co/mcp`
 - Transport: Streamable HTTP
-- Auth: OAuth 2.1 (discovery at `https://app.proofsource.co/.well-known/oauth-protected-resource`). The user signs in with their Proofsource email and a one-time code. No API key is needed.
+- Auth: OAuth 2.1 (discovery at `https://mcp.proofsource.co/.well-known/oauth-protected-resource/mcp`). The user signs in with their Proofsource email and a one-time code. No API key is needed.
 
 ## Config
 
@@ -15,7 +15,7 @@ Add this to the client's MCP settings (Cline: `cline_mcp_settings.json`; Cursor:
   "mcpServers": {
     "proofsource": {
       "type": "streamableHttp",
-      "url": "https://app.proofsource.co/v1/mcp"
+      "url": "https://mcp.proofsource.co/mcp"
     }
   }
 }
